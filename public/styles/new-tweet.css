@@ -3,13 +3,14 @@ section.new-tweet {
  border-width: 1px;
  border-radius: 15px;
  padding:2%;
- background-color:#dcdcdc;
+ background-color:#f5f5f5;
  margin: 12px;
+ font-weight:900;
 
 }
 
 h2 {
- border-bottom: solid;
+ border-bottom: solid 1px;
 }
 
 
@@ -18,7 +19,6 @@ textarea {
  margin:auto;
  height: 51px;
  width: 100%;
-
 }
 
 .counter {
