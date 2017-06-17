@@ -6,7 +6,7 @@ article {
 }
 
 article.tweet{
-    font-size:160%;
+    font-size:20px;
     font-weight: 700;
     background-color:snow;
     border:#dfdfdf solid 1px;
@@ -25,7 +25,7 @@ article.tweet header{
 .tweet header .handle {
     padding: 5px;
     float:right;
-    font-size:70%;
+    font-size:15px;
     font-weight:400;
 }
 
