@@ -16,8 +16,28 @@
 }
 
 #nav-bar .header{
-float: left;
-padding: 10px;
-font-size: 200%;
-line-height: 1.7;
+  float: left;
+  padding: 10px;
+  font-weight:bold;
+  font-size: 200%;
+  line-height: 1.7;
 }
+
+#nav-bar button {
+  margin:16px;
+  height: 50px;
+  width: 120px;
+  float: right;
+  font-size: 150%;
+  font-weight:bold;
+  border-radius:9px;
+  background-color:white;
+}
+
+#nav-bar button:hover {
+  height: 55px;
+  width: 125px;
+  opacity:0.9;
+  background-color:#eee;
+}
+

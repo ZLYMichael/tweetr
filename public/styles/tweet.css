@@ -18,7 +18,7 @@ article.tweet header{
     border-top-left-radius:15px;
     border-top-right-radius:15px;
     border-bottom:1px solid grey;
-    background-color:grey;
+    background-color:#00a087;
 
 }
 
@@ -90,7 +90,7 @@ img.avatar{
 }
 
 article:hover {
-    background-color:#eee;
+    background-color:snow;
     transition: 0.3s;    
     opacity:1.0;
 }

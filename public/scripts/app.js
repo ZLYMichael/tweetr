@@ -38,6 +38,7 @@ $(function() {
         method: 'GET',
       }).done(renderTweets);
     }
+  
 //does not let user post if the text field is empty or exceeds char count
     $('.tweetform').on('submit', function(event){
       event.preventDefault();
@@ -62,6 +63,5 @@ $(function() {
       })
     });
 
-    loadTweets();    
-
+     loadTweets(); 
 });
