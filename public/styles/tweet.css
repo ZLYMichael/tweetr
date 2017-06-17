@@ -2,7 +2,7 @@ section{
     padding: 15px;
 }
 article {
-    opacity:0.5;
+    opacity:0.75;
 }
 
 article.tweet{
@@ -22,14 +22,14 @@ article.tweet header{
 
 }
 
-article.tweet header .handle {
+.tweet header .handle {
     padding: 5px;
     float:right;
     font-size:70%;
     font-weight:400;
 }
 
-article.tweet header .name {
+.tweet header .name {
     float: left;
 }
 
@@ -45,8 +45,8 @@ img.avatar{
 }
 
 
-article.tweet header:before,
-article.tweet header:after {
+.tweet header:before,
+.tweet header:after {
     content:" ";
     display:table;
 }
@@ -79,13 +79,13 @@ article.tweet header:after {
     border-top:1px solid lightgray;
 }
 
-article.tweet i {
+.tweet i {
     float: right;
     padding: 2px;
     visibility: hidden;
 }
 
-article.tweet:hover i{
+.tweet:hover i{
     visibility: visible;
 }
 

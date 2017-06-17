@@ -1,3 +1,4 @@
+//counts the remaining characters for the textarea
 $(function() {
     $("section.new-tweet").find('textarea').on("keyup keydown", function() {
         const maxCount = 140;
