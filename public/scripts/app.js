@@ -11,7 +11,7 @@ $(function() {
                   ${escape(obj.content.text)}
                   </p>
                   <footer>
-                  <span class="time">${escape(obj.created_at)}</span>
+                  <span class="time">${escape(moment(obj.created_at).fromNow())}</span>
                   <i class="fa fa-flag-o" aria-hidden = "true"></i>          
                   <i class="fa fa-retweet" aria-hidden = "true"></i>
                   <i class="fa fa-heart-o" aria-hidden = "true"></i>          
