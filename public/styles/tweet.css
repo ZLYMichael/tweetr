@@ -11,7 +11,7 @@ article.tweet{
     background-color:snow;
     border:#dfdfdf solid 1px;
     border-radius: 15px;
-    margin:0 auto;
+    margin:0 0 50px 0;
 }
 
 article.tweet header{

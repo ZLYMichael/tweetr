@@ -42,5 +42,18 @@
       "text": "Es ist nichts schrecklicher als eine tätige Unwissenheit."
     },
     "created_at": 1461113796368
+  },
+  {
+    "user":{
+      "name": "Michael",
+      "avatars":{
+          "regular": "/images/nin.jpg"
+      },
+      "handle":"@Michael"
+    },
+    "content":{
+        "text": "I am !prepared."
+    },
+    "created_at":1461113796368
   }
 ]
