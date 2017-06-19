@@ -1,6 +1,6 @@
 //counts the remaining characters for the textarea
 $(function() {
-    $("section.new-tweet").find('textarea').on("keyup keydown", function() {
+    $("section.new-tweet").find('textarea').on("focus input", function() {
         const maxCount = 140;
         const cRemain = maxCount - $(this).val().length;
         const counter = $(this).parent().find(".counter");

@@ -59,7 +59,10 @@ $(function() {
         method: 'POST',
         data: $(this).serialize()
       }).done(function(){
-        loadTweets()
+        loadTweets();
+        $('.new-tweet textarea').val("");
+        $('.new-tweet textarea').focus();
+        $('sectiion.new-tweet').slideToggle("slow");
       })
     });
 
