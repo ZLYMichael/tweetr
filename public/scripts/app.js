@@ -62,7 +62,7 @@ $(function() {
         loadTweets();
         $('.new-tweet textarea').val("");
         $('.new-tweet textarea').focus();
-        $('sectiion.new-tweet').slideToggle("slow");
+        $('section.new-tweet').slideToggle("fast");
       })
     });
 
